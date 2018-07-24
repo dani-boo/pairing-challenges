@@ -7,7 +7,7 @@
 #ex 3
 [1, 3, 5, 4, 2].map { |element| element + 1 }.sort
 # ex 4
-[1, 2, 3, 4, 5].sum
+[1, 2, 3, 4, 5].sumcode README
 # ex 5
 [1, 2, 3, 4, 5].sum*2
 
@@ -17,6 +17,8 @@ h = { a: 1, b: 2 }
 
 h.inject(h) {|h, (k, v)| h[k] = v + 1; h }
 # ex 2
+
+
 messy_hash = { a: 2, b: 5, c: 1 }
 index = 0
 sorted_values = messy_hash.values.sort
